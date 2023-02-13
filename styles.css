@@ -19,7 +19,7 @@ p {
 
 
 div {
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     /* flex-wrap: nowrap; */
     flex-direction: column;
@@ -51,7 +51,7 @@ input::placeholder {
 }
 
 
-/* CSS */
+/* buttons css */
 .buttonClick, .buttonReset, .darkMode{
   appearance: none;
   background-color:white;
@@ -123,6 +123,24 @@ input::placeholder {
 }
 
  
+.footer {
+  position: absolute;
+  bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-content: flex-start;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
 
 /* Dark mode button */
 .button-dark-mode-click, .button-dark-mode-reset, .button-dark-mode-dark {
