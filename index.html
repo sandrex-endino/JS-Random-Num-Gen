@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
-    
-    <title>Random Number Generator</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Random Number Generator</title>
 </head>
 <body>
-    <div class="box">
-        <h1>JavaScript</h1>
-        <h2>Random Number Generator</h2>
+  <h1> JavaScript </h1>
+  <header>
+    Random Number Generator
+  </header>
 
-        <p id="randomNum"></p>
-    </div>
+  <div id="random-div">
+    <p id="random-p"></p>
+  </div>
 
-    <div>
-        <h3 class="instruction"> click the button to generate a random number</h3>
-        <button id="buttonClick" class="buttonClick" role="button">Click Me!</button>
-        <button id="buttonReset" class="buttonReset" role="button">Clear</button>
+  <div id="div-btn">
+    <!-- <input id="min-num" placeholder="input minimum number here">
+    <input id="max-num" placeholder="input maximum number here"> -->
+    <button id="random-btn" class="btn"> generate random number </button>
+    <button id="clear-btn" class="btn"> clear result </button>
+  </div>
 
-        <button id="darkMode" class="darkMode" role="button">toggle dark / light mode</button>
-    </div>
+  <!-- <div id="theme-div">
+    <label for="theme">Select theme: </label></label>
+      <div class="theme-switch">
+        <input type="checkbox" id="theme-toggle">
+        <label for="theme-toggle"></label>
+      </div>
+  </div> -->
 
-    <div class="footer">
-       <h4>created by: 5andrex &#8226; <a href="https://github.com/5andrex" target="_blank">github</a><h4> 
-    </div>
-    
-<script src="index.js"></script>
+  <div id="theme-div">
+    <label for="theme" id="theme-label"> Toggle theme </label>
+    <label class="switch">
+      <input type="checkbox" id="switch-theme">
+      <span class="slider round"></span>
+    </label>
+  </div>
+  
+  <script src="index.js"></script>
 </body>
 </html>
